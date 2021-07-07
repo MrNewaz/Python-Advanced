@@ -1,9 +1,9 @@
-# numbers = [1, 23, 5, 14, 23]
-# print(sorted(numbers, reverse=True))
+numbers = [1, 23, 5, 14, 23]
+print(sorted(numbers, reverse=True))
 
-# numbers.sort(reverse=True)
+numbers.sort(reverse=True)
 
-# print(numbers)
+print(numbers)
 
 items = [
     ("num1", 10),
@@ -12,9 +12,9 @@ items = [
 ]
 
 
-def sortItems(item):
-    return item[1]
+# def sortItems(item):
+#     return item[1]
 
 
-items.sort(key=sortItems)
+items.sort(key=lambda item: item[1])
 print(items)
