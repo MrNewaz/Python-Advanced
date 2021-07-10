@@ -14,3 +14,5 @@ class Point:
 
 
 point = Point.zero()
+
+print(str(point))
